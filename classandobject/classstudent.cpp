@@ -28,7 +28,8 @@ class student
             cin>>math;
             cout<<"Enter the marks of Science:-";
             cin>>science;
-            total = eng + math + science;
+            total = ctotal();
+        
         }
         void showdata()
         {
